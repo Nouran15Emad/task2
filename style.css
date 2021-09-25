@@ -1,0 +1,104 @@
+.head {
+    text-align: center;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.headr {
+    width: 80px;
+    border: solid 1px orange;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: rgba(163, 167, 172, 0.219);
+}
+
+.sec {
+    margin-left: 85px;
+    display: inline-block;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color: white;
+    height: 400px;
+    padding-top: 3px;
+    position: relative;
+}
+
+.sec h3 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.sec h1 {
+    display: inline;
+    color: orange;
+    font-family: 'Montserrat';
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+
+.sec h6 {
+    display: inline;
+    color: orange;
+    font-family: 'Montserrat';
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.sec p {
+    font-family: 'Montserrat';
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.sec hr {
+    border: solid .5px rgba(128, 128, 128, 0.13);
+    background-color: rgba(128, 128, 128, 0.048);
+}
+
+.sec ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.sec li {
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.sec li:before {
+    content: '✓';
+    color: orange;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.sec button {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    padding: 10px 10px;
+    line-height: 50%;
+    border: solid 1px orange;
+    color: orange;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.sec button:hover {
+    background-color: orange;
+    color: white;
+}
